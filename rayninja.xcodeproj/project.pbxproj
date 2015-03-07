@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		940FD3D21AAB042D00D50264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD3D11AAB042D00D50264 /* AppDelegate.swift */; };
-		940FD3D41AAB042D00D50264 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3D31AAB042D00D50264 /* GameScene.sks */; };
 		940FD3D61AAB042D00D50264 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD3D51AAB042D00D50264 /* GameScene.swift */; };
 		940FD3D81AAB042D00D50264 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD3D71AAB042D00D50264 /* GameViewController.swift */; };
 		940FD3DB1AAB042D00D50264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3D91AAB042D00D50264 /* Main.storyboard */; };
 		940FD3DD1AAB042D00D50264 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3DC1AAB042D00D50264 /* Images.xcassets */; };
 		940FD3E01AAB042D00D50264 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3DE1AAB042D00D50264 /* LaunchScreen.xib */; };
 		940FD3EC1AAB042D00D50264 /* rayninjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD3EB1AAB042D00D50264 /* rayninjaTests.swift */; };
+		940FD3FB1AAB0C1700D50264 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3F51AAB0C1700D50264 /* monster.png */; };
+		940FD3FC1AAB0C1700D50264 /* monster@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3F61AAB0C1700D50264 /* monster@2x.png */; };
+		940FD3FD1AAB0C1700D50264 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3F71AAB0C1700D50264 /* player.png */; };
+		940FD3FE1AAB0C1700D50264 /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3F81AAB0C1700D50264 /* player@2x.png */; };
+		940FD3FF1AAB0C1700D50264 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3F91AAB0C1700D50264 /* projectile.png */; };
+		940FD4001AAB0C1700D50264 /* projectile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 940FD3FA1AAB0C1700D50264 /* projectile@2x.png */; };
+		940FD4031AAB0C3900D50264 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4011AAB0C3900D50264 /* background-music-aac.caf */; };
+		940FD4041AAB0C3900D50264 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4021AAB0C3900D50264 /* pew-pew-lei.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +38,6 @@
 		940FD3CC1AAB042D00D50264 /* rayninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rayninja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		940FD3D01AAB042D00D50264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		940FD3D11AAB042D00D50264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		940FD3D31AAB042D00D50264 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		940FD3D51AAB042D00D50264 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		940FD3D71AAB042D00D50264 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		940FD3DA1AAB042D00D50264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +46,14 @@
 		940FD3E51AAB042D00D50264 /* rayninjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rayninjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		940FD3EA1AAB042D00D50264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		940FD3EB1AAB042D00D50264 /* rayninjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rayninjaTests.swift; sourceTree = "<group>"; };
+		940FD3F51AAB0C1700D50264 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		940FD3F61AAB0C1700D50264 /* monster@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster@2x.png"; sourceTree = "<group>"; };
+		940FD3F71AAB0C1700D50264 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		940FD3F81AAB0C1700D50264 /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		940FD3F91AAB0C1700D50264 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		940FD3FA1AAB0C1700D50264 /* projectile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile@2x.png"; sourceTree = "<group>"; };
+		940FD4011AAB0C3900D50264 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		940FD4021AAB0C3900D50264 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				940FD3D11AAB042D00D50264 /* AppDelegate.swift */,
-				940FD3D31AAB042D00D50264 /* GameScene.sks */,
 				940FD3D51AAB042D00D50264 /* GameScene.swift */,
 				940FD3D71AAB042D00D50264 /* GameViewController.swift */,
 				940FD3D91AAB042D00D50264 /* Main.storyboard */,
@@ -96,6 +109,14 @@
 		940FD3CF1AAB042D00D50264 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				940FD4011AAB0C3900D50264 /* background-music-aac.caf */,
+				940FD4021AAB0C3900D50264 /* pew-pew-lei.caf */,
+				940FD3F51AAB0C1700D50264 /* monster.png */,
+				940FD3F61AAB0C1700D50264 /* monster@2x.png */,
+				940FD3F71AAB0C1700D50264 /* player.png */,
+				940FD3F81AAB0C1700D50264 /* player@2x.png */,
+				940FD3F91AAB0C1700D50264 /* projectile.png */,
+				940FD3FA1AAB0C1700D50264 /* projectile@2x.png */,
 				940FD3D01AAB042D00D50264 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,10 +219,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940FD4031AAB0C3900D50264 /* background-music-aac.caf in Resources */,
 				940FD3E01AAB042D00D50264 /* LaunchScreen.xib in Resources */,
+				940FD3FE1AAB0C1700D50264 /* player@2x.png in Resources */,
+				940FD3FF1AAB0C1700D50264 /* projectile.png in Resources */,
+				940FD4041AAB0C3900D50264 /* pew-pew-lei.caf in Resources */,
 				940FD3DD1AAB042D00D50264 /* Images.xcassets in Resources */,
-				940FD3D41AAB042D00D50264 /* GameScene.sks in Resources */,
+				940FD3FD1AAB0C1700D50264 /* player.png in Resources */,
+				940FD3FB1AAB0C1700D50264 /* monster.png in Resources */,
+				940FD4001AAB0C1700D50264 /* projectile@2x.png in Resources */,
 				940FD3DB1AAB042D00D50264 /* Main.storyboard in Resources */,
+				940FD3FC1AAB0C1700D50264 /* monster@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
