@@ -7,6 +7,28 @@
 //
 
 import SpriteKit
+import AVFoundation
+
+var backgroundMusicPlayer: AVAudioPlayer!
+
+func playBackgroundMusic(filename: String){
+    let url = NSBundle.mainBundle().URLForResource(filename, withExtension: nil)
+    if url == nil{
+        println("Could not find file: \(filename)")
+        return
+    }
+    
+    var error: NSError? = nil
+    backgroundMusicPlayer = AVAudioPlayer(contentsOfURL: url, error: &error)
+    if backgroundMusicPlayer == nil{
+        println("Could not create audio player: \(error)")
+        return
+    }
+    backgroundMusicPlayer.numberOfLoops = -1
+    backgroundMusicPlayer.prepareToPlay()
+    backgroundMusicPlayer.play()
+    
+}
 
 struct PhysicsCategory {
     static let None: UInt32 = 0
@@ -53,6 +75,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     let player = SKSpriteNode(imageNamed: "player")
     
     override func didMoveToView(view: SKView) {
+        playBackgroundMusic("background-music-aac.caf")
+        
         // 2
         backgroundColor = SKColor.whiteColor()
         // 3
@@ -109,6 +133,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+        runAction(SKAction.playSoundFileNamed("pew-pew-lei.caf", waitForCompletion: false))
+        
         // Choose one the touches to work with
         let touch = touches.anyObject() as UITouch
         let touchLocation = touch.locationInNode(self)
